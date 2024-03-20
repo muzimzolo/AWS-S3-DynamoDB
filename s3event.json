@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "af-south-1",
+            "eventTime": "2024-03-20T11:27:05.219Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AIDAUIII5R4F6CWMEXZ4K"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "196.41.10.77"
+            },
+            "responseElements": {
+                "x-amz-request-id": "19HPTRV5T90QFCQZ",
+                "x-amz-id-2": "QGXkCLg6Yu9GnrzyrA6VNf0yI3cCq6G617AjsLzVALJ6x320Mkws6+bSkWn+BJwhQv63SRwVxzQhJf4iAJCFgHXRfvfOngpm"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "e43ecf62-25bf-44be-a2d6-e068b24ffe60",
+                "bucket": {
+                    "name": "muzi-s3-lambda",
+                    "ownerIdentity": {
+                        "principalId": "A7IXFW0306PX3"
+                    },
+                    "arn": "arn:aws:s3:::muzi-s3-lambda"
+                },
+                "object": {
+                    "key": "aws.png",
+                    "size": 25427,
+                    "eTag": "92227c4e58d6c9929ca70d9f85034add",
+                    "sequencer": "0065FAC8092F93E0A4"
+                }
+            }
+        }
+    ]
+}
